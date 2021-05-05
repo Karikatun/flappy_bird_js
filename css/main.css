@@ -1,0 +1,25 @@
+.wrapper {
+    width: 288px;
+    height: 512px;
+    background: url("../img/bg.png") center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.start_button {
+    background-color: yellowgreen;
+    font-size: 24px;
+    border: darkseagreen 2px solid;
+    border-radius: 10px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.best_score {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 20px;
+}
